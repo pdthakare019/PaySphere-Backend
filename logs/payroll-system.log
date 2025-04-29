@@ -1,30 +1,29 @@
-2025-04-28T14:13:22.134+05:30  WARN 23060 --- [Payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d14h12m43s418ms284µs500ns).
-2025-04-28T14:35:49.598+05:30  INFO 27808 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Starting PayrollApplication using Java 21.0.6 with PID 27808 (C:\Users\prathameshdheeraj_th\Payroll_2\target\classes started by PrathameshDheerajTha in C:\Users\prathameshdheeraj_th\Payroll_2)
-2025-04-28T14:35:49.600+05:30  INFO 27808 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-04-28T14:35:49.649+05:30  INFO 27808 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-04-28T14:35:49.649+05:30  INFO 27808 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-04-28T14:35:50.345+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-28T14:35:50.346+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-04-28T14:35:50.386+05:30  INFO 27808 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.CustomEmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-04-28T14:35:50.388+05:30  INFO 27808 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-04-28T14:35:50.388+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JDBC repository interfaces.
-2025-04-28T14:35:50.402+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-28T14:35:50.403+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-28T14:35:50.429+05:30  INFO 27808 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
-2025-04-28T14:35:51.069+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-28T14:35:51.098+05:30  INFO 27808 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-28T14:35:51.098+05:30  INFO 27808 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-28T14:35:51.141+05:30  INFO 27808 --- [Payroll] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-28T14:35:51.142+05:30  INFO 27808 --- [Payroll] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
-2025-04-28T14:35:51.380+05:30  INFO 27808 --- [Payroll] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-28T14:35:51.441+05:30  INFO 27808 --- [Payroll] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-28T14:35:51.473+05:30  INFO 27808 --- [Payroll] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-28T14:35:51.729+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-28T14:35:51.758+05:30  INFO 27808 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-28T14:35:53.247+05:30  INFO 27808 --- [Payroll] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b824e8d
-2025-04-28T14:35:53.249+05:30  INFO 27808 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-28T14:35:53.380+05:30  WARN 27808 --- [Payroll] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-28T14:35:53.504+05:30  INFO 27808 --- [Payroll] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-29T11:10:32.283+05:30  INFO 27028 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Starting PayrollApplication using Java 21.0.6 with PID 27028 (C:\Users\prathameshdheeraj_th\Payroll_2\target\classes started by PrathameshDheerajTha in C:\Users\prathameshdheeraj_th\Payroll_2)
+2025-04-29T11:10:32.292+05:30  INFO 27028 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-29T11:10:32.368+05:30  INFO 27028 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-29T11:10:32.368+05:30  INFO 27028 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-29T11:10:33.535+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-29T11:10:33.537+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-04-29T11:10:33.586+05:30  INFO 27028 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.CustomEmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-04-29T11:10:33.586+05:30  INFO 27028 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-04-29T11:10:33.586+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 0 JDBC repository interfaces.
+2025-04-29T11:10:33.613+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-29T11:10:33.613+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-29T11:10:33.643+05:30  INFO 27028 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2025-04-29T11:10:34.910+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-29T11:10:34.954+05:30  INFO 27028 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-29T11:10:34.955+05:30  INFO 27028 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-29T11:10:35.017+05:30  INFO 27028 --- [Payroll] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-29T11:10:35.021+05:30  INFO 27028 --- [Payroll] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2653 ms
+2025-04-29T11:10:35.341+05:30  INFO 27028 --- [Payroll] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-29T11:10:35.412+05:30  INFO 27028 --- [Payroll] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-29T11:10:35.457+05:30  INFO 27028 --- [Payroll] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-29T11:10:35.851+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-29T11:10:35.895+05:30  INFO 27028 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-29T11:10:37.850+05:30  INFO 27028 --- [Payroll] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c57d4a2
+2025-04-29T11:10:37.852+05:30  INFO 27028 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-29T11:10:38.041+05:30  WARN 27028 --- [Payroll] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-29T11:10:38.193+05:30  INFO 27028 --- [Payroll] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -32,56 +31,48 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-28T14:35:54.185+05:30  INFO 27808 --- [Payroll] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-28T14:35:54.520+05:30  INFO 27808 --- [Payroll] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-28T14:35:54.719+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-28T14:35:55.263+05:30  WARN 27808 --- [Payroll] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-28T14:35:55.319+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-04-28T14:35:56.066+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://ep-jolly-surf-a1btnbqi-pooler.ap-southeast-1.aws.neon.tech/payrollDB'
-2025-04-28T14:35:56.144+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-04-28T14:35:56.182+05:30  INFO 27808 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-28T14:35:56.191+05:30  INFO 27808 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Started PayrollApplication in 7.008 seconds (process running for 7.352)
-2025-04-28T14:36:29.502+05:30  INFO 27808 --- [Payroll] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-28T14:36:29.512+05:30  INFO 27808 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-28T14:36:29.512+05:30  INFO 27808 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-04-28T14:58:57.918+05:30  INFO 27808 --- [Payroll] [http-nio-8080-exec-9] com.example.Payroll.EmployeeController   : GET /api/employees
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7b824e8d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@475de916 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@73208313 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@ab8c52 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@53242fe8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7b9969c3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@c5655b8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.941+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@50c3817c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.956+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@22eabfe3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:57.957+05:30  WARN 27808 --- [Payroll] [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@120d1d0c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
-2025-04-28T14:58:59.311+05:30  INFO 27808 --- [Payroll] [http-nio-8080-exec-9] com.example.Payroll.EmployeeController   : Retrieved 2 employees
-2025-04-28T16:28:18.952+05:30  INFO 20624 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Starting PayrollApplication using Java 21.0.6 with PID 20624 (C:\Users\prathameshdheeraj_th\Payroll_2\target\classes started by PrathameshDheerajTha in C:\Users\prathameshdheeraj_th\Payroll_2)
-2025-04-28T16:28:18.952+05:30  INFO 20624 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-04-28T16:28:19.016+05:30  INFO 20624 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-04-28T16:28:19.018+05:30  INFO 20624 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-04-28T16:28:19.919+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-28T16:28:19.919+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-04-28T16:28:19.971+05:30  INFO 20624 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.CustomEmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-04-28T16:28:19.971+05:30  INFO 20624 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
-2025-04-28T16:28:19.971+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 0 JDBC repository interfaces.
-2025-04-28T16:28:19.992+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-04-28T16:28:19.992+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-28T16:28:20.031+05:30  INFO 20624 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
-2025-04-28T16:28:20.996+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-28T16:28:21.051+05:30  INFO 20624 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-28T16:28:21.051+05:30  INFO 20624 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-28T16:28:21.102+05:30  INFO 20624 --- [Payroll] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-28T16:28:21.116+05:30  INFO 20624 --- [Payroll] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2084 ms
-2025-04-28T16:28:21.471+05:30  INFO 20624 --- [Payroll] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-28T16:28:21.520+05:30  INFO 20624 --- [Payroll] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-28T16:28:21.553+05:30  INFO 20624 --- [Payroll] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-28T16:28:21.922+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-28T16:28:21.962+05:30  INFO 20624 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-28T16:28:23.633+05:30  INFO 20624 --- [Payroll] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@520a3e76
-2025-04-28T16:28:23.643+05:30  INFO 20624 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-28T16:28:23.757+05:30  WARN 20624 --- [Payroll] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-28T16:28:23.910+05:30  INFO 20624 --- [Payroll] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-29T11:10:39.598+05:30  INFO 27028 --- [Payroll] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-29T11:10:39.990+05:30  INFO 27028 --- [Payroll] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-29T11:10:40.414+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-29T11:10:41.460+05:30  WARN 27028 --- [Payroll] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-29T11:10:41.553+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-04-29T11:10:42.243+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://ep-jolly-surf-a1btnbqi-pooler.ap-southeast-1.aws.neon.tech/payrollDB'
+2025-04-29T11:10:42.318+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-29T11:10:42.350+05:30  INFO 27028 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-29T11:10:42.364+05:30  INFO 27028 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Started PayrollApplication in 10.787 seconds (process running for 11.438)
+2025-04-29T11:10:50.358+05:30  INFO 27028 --- [Payroll] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-29T11:10:50.360+05:30  INFO 27028 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-29T11:10:50.362+05:30  INFO 27028 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-29T11:11:18.758+05:30  INFO 27028 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : GET /api/employees
+2025-04-29T11:11:19.187+05:30  INFO 27028 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : Retrieved 2 employees
+2025-04-29T12:49:32.268+05:30  WARN 27028 --- [Payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m23s856ms633µs600ns).
+2025-04-29T13:22:47.841+05:30  WARN 27028 --- [Payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m45s521ms549µs300ns).
+2025-04-29T15:03:34.042+05:30  INFO 6288 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Starting PayrollApplication using Java 21.0.6 with PID 6288 (C:\Users\prathameshdheeraj_th\Payroll_2\target\classes started by PrathameshDheerajTha in C:\Users\prathameshdheeraj_th\Payroll_2)
+2025-04-29T15:03:34.046+05:30  INFO 6288 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-29T15:03:34.132+05:30  INFO 6288 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-29T15:03:34.132+05:30  INFO 6288 --- [Payroll] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-29T15:03:35.115+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-29T15:03:35.115+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-04-29T15:03:35.164+05:30  INFO 6288 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.CustomEmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-04-29T15:03:35.170+05:30  INFO 6288 --- [Payroll] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Payroll.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2025-04-29T15:03:35.170+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 0 JDBC repository interfaces.
+2025-04-29T15:03:35.192+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-29T15:03:35.192+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-29T15:03:35.231+05:30  INFO 6288 --- [Payroll] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2025-04-29T15:03:36.537+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-29T15:03:36.577+05:30  INFO 6288 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-29T15:03:36.577+05:30  INFO 6288 --- [Payroll] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-29T15:03:36.635+05:30  INFO 6288 --- [Payroll] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-29T15:03:36.635+05:30  INFO 6288 --- [Payroll] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2503 ms
+2025-04-29T15:03:37.044+05:30  INFO 6288 --- [Payroll] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-29T15:03:37.139+05:30  INFO 6288 --- [Payroll] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-29T15:03:37.170+05:30  INFO 6288 --- [Payroll] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-29T15:03:37.560+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-29T15:03:37.600+05:30  INFO 6288 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-29T15:03:39.250+05:30  INFO 6288 --- [Payroll] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7779b418
+2025-04-29T15:03:39.250+05:30  INFO 6288 --- [Payroll] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-29T15:03:39.362+05:30  WARN 6288 --- [Payroll] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-29T15:03:39.486+05:30  INFO 6288 --- [Payroll] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.4
@@ -89,17 +80,17 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-28T16:28:25.343+05:30  INFO 20624 --- [Payroll] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-28T16:28:25.677+05:30  INFO 20624 --- [Payroll] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-28T16:28:26.035+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-04-28T16:28:26.800+05:30  WARN 20624 --- [Payroll] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-28T16:28:26.935+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-04-28T16:28:27.753+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://ep-jolly-surf-a1btnbqi-pooler.ap-southeast-1.aws.neon.tech/payrollDB'
-2025-04-28T16:28:27.839+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-04-28T16:28:27.870+05:30  INFO 20624 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-28T16:28:27.889+05:30  INFO 20624 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Started PayrollApplication in 9.601 seconds (process running for 10.146)
-2025-04-28T16:28:35.599+05:30  INFO 20624 --- [Payroll] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-28T16:28:35.599+05:30  INFO 20624 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-28T16:28:35.604+05:30  INFO 20624 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-04-28T16:28:46.029+05:30  INFO 20624 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : GET /api/employees
-2025-04-28T16:28:46.397+05:30  INFO 20624 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : Retrieved 2 employees
+2025-04-29T15:03:40.410+05:30  INFO 6288 --- [Payroll] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-29T15:03:40.765+05:30  INFO 6288 --- [Payroll] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-29T15:03:41.240+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-29T15:03:42.076+05:30  WARN 6288 --- [Payroll] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-29T15:03:42.208+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-04-29T15:03:42.981+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://ep-jolly-surf-a1btnbqi-pooler.ap-southeast-1.aws.neon.tech/payrollDB'
+2025-04-29T15:03:43.036+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-29T15:03:43.064+05:30  INFO 6288 --- [Payroll] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-29T15:03:43.069+05:30  INFO 6288 --- [Payroll] [restartedMain] com.example.Payroll.PayrollApplication   : Started PayrollApplication in 9.621 seconds (process running for 10.169)
+2025-04-29T15:03:49.669+05:30  INFO 6288 --- [Payroll] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-29T15:03:49.669+05:30  INFO 6288 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-29T15:03:49.671+05:30  INFO 6288 --- [Payroll] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-04-29T15:04:04.988+05:30  INFO 6288 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : GET /api/employees
+2025-04-29T15:04:05.439+05:30  INFO 6288 --- [Payroll] [http-nio-8080-exec-5] com.example.Payroll.EmployeeController   : Retrieved 2 employees
